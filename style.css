@@ -1,0 +1,55 @@
+body {
+	background-color: #6c22a6;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+	max-width: 600px;
+	background-color: #6962ad;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	color: #fac036;
+}
+
+.move-icon {
+	height: 50px;
+}
+
+.move-button {
+	background-color: transparent;
+	border: 3px solid white;
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.result {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.score {
+	margin-top: 60px;
+}
+
+.reset-score-button {
+	background-color: white;
+	border: none;
+	font-size: 15px;
+	padding: 8px 15px;
+	cursor: pointer;
+	margin-bottom: 40px;
+	background-color: #fac036;
+	border-radius: 10px;
+	padding: 15px;
+}
